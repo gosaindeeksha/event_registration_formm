@@ -83,7 +83,7 @@ function Signin() {
   useEffect(() => {
     // iterating to the through the object form data and calling the validate function for each key value pair
     Object.keys(formData).forEach((key) => {
-      value = formData[key];
+      var value = formData[key];
       validateField(key, value);
     });
   }, [
