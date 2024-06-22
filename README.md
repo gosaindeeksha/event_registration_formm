@@ -1,2 +1,2 @@
 # event_registration_formm
-Created with CodeSandbox
+registration form using react
